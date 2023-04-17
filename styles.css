@@ -1,0 +1,100 @@
+.navbar {
+  background-color: #389afc; /* Cambia aquí el color de fondo */
+}
+
+/* HOME */
+.carousel {
+  /* height: 60vh; */
+}
+.carousel-inner {
+  height: 100%;
+}
+.carousel img {
+  /* height: 60vh; */
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item h4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: #ccc 0px 0px 15px;
+  color: white;
+  font-size: 12vw;
+}
+
+.main {
+  background-color: #f5f5f5;
+  padding: 5vh 30px;
+  min-height: 100vh;
+}
+
+/* TIENDA */
+
+.tienda-listado {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 90vw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tienda-item {
+  width: 400px;
+  flex: 1 1 33wv;
+  padding: 0;
+  margin: 0;
+
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.tienda-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: rgb(255, 255, 255);
+  padding: 8px;
+}
+
+.tienda-item .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: #000 0px 0px 10px;
+  font-size: 3em;
+}
+
+/* CONTACTO FORM */
+
+.field {
+  margin-top: 16px;
+}
+
+.button {
+  background-color: #389afc;
+  border-color: transparent;
+  padding: 4px 16px;
+  border-radius: 20px;
+}
+
+.button:hover {
+  opacity: 0.8;
+  border-color: transparent;
+}
+
+.button:active {
+  background-color: red;
+  border-color: transparent;
+  outline: none;
+}
